@@ -49,6 +49,7 @@ var (
 		"TCO": FrameType{id: "TCO", description: "Content type", constructor: ParseTextFrame},
 		"TCR": FrameType{id: "TCR", description: "Copyright message", constructor: ParseTextFrame},
 		"TDA": FrameType{id: "TDA", description: "Date", constructor: ParseTextFrame},
+		"TDRC": FrameType{id: "TDRC", description: "Recording Date", constructor: ParseTextFrame},
 		"TDY": FrameType{id: "TDY", description: "Playlist delay", constructor: ParseTextFrame},
 		"TEN": FrameType{id: "TEN", description: "Encoded by", constructor: ParseTextFrame},
 		"TFT": FrameType{id: "TFT", description: "File type", constructor: ParseTextFrame},
